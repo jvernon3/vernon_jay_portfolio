@@ -1,0 +1,173 @@
+body
+{
+    background-color: #0F0F0F;
+}
+
+.leftbox
+{
+    margin-top: 40px;
+}
+
+p
+{
+    font-size: 1em;
+    color: #D4AF37;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.name
+{
+    font-family: 'Noto Sans', sans-serif;
+    color: 	#D4AF37;
+    font-size: 1.25em;
+    margin-top: 20px;
+}
+
+a
+{
+    color: 	#D4AF37;
+}
+
+a:hover
+{
+    color: white;
+}
+
+.highlight
+{
+    font-weight: bold;
+}
+
+.lowlight
+{
+    color: #7D6720;
+}
+
+.title-bar
+{
+    background-color: #0F0F0F;
+    margin-top: 15px;
+}
+
+.menu-icon::after
+{
+	background: #D4AF37;
+	box-shadow: 0 7px 0 #D4AF37, 0 14px 0 #D4AF37;
+}
+
+.menu-icon:hover::after
+{
+	background: #BF9E32;
+	box-shadow: 0 7px 0 #BF9E32, 0 14px 0 #BF9E32;
+}
+
+#mainNav
+{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#mainNav li a
+{
+	display: block;
+	padding: 10px 0 10px 0;
+    color: #D4AF37;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+}
+
+#logo
+{
+    text-align: left;
+    margin-left: 40px;
+}
+
+#welcome
+{
+    background-size: 100%;
+    display: block;
+
+}
+
+#welcome p
+{
+    padding-top: 50px;
+    text-align: left;
+}
+
+#jay
+{
+    padding-top: 40px;
+}
+
+#jayIMG
+{
+    width: 250px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 64em) {
+	#mainHeader
+	{
+        position: relative;
+	}
+
+	#mainNav
+	{
+		text-align: right;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-right: 50px;
+	}
+
+	#mainNav li
+	{
+		border-bottom: none;
+        display: inline-block;
+        text-decoration: none;
+		margin-left: 20px;
+	}
+
+	#mainNav li a
+	{
+		display: inline-block;
+        padding: 5px 0 5px 0;
+        border-bottom: 0px;
+    }
+
+    .lineAnim::after
+    {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #BF9E32;
+        transition: width .3s;
+    }
+
+    .lineAnim:hover::after
+    {
+        width: 100%;
+        transition: width;
+    }
+
+    #jayIMG
+    {
+        width: 480px;
+    }
+
+    #welcome p
+    {
+        padding-top: 150px;
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+
+}
