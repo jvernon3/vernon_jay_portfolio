@@ -8,6 +8,28 @@ body
     margin-top: 40px;
 }
 
+.description
+{
+    margin-top: 50px;
+}
+
+.description h1
+{
+    font-size: 2em;
+    color: #D4AF37;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.description p
+{
+    font-size: 0.825em;
+    color: #D4AF37;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+}
+
+
 p
 {
     font-size: 1em;
@@ -93,7 +115,7 @@ a:hover
 
 #welcome p
 {
-    padding-top: 50px;
+    padding-top: 0px;
     text-align: left;
 }
 
@@ -105,6 +127,11 @@ a:hover
 #jayIMG
 {
     width: 250px;
+}
+
+.videoDemo
+{
+    margin-bottom: 30px;
 }
 
 
