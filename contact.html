@@ -17,23 +17,24 @@
 <body>
     <header id="mainHeader">
 
-            <nav id="mainNav" class="small-12 large-8 large-push-4 columns">
-
-                    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
-                            <div class="title-bar-right">
-                                
-                              <button class="menu-icon" type="button" data-toggle="main-menu"></button>
-                            </div>
-                    </div>
+            <nav id="nav" class="small-12 large-8 large-push-4 columns">
+                    <h1 class="hide">Main Navigation</h1>
+                        <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+                                <div class="title-bar-right">
+                                    
+                                  <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+                                </div>
+                        </div>
+                    
+                            <div id="main-menu" class="text-center">
+                              <ul id="mainNav">
+                                <li><a href="about.html" class="lineAnim highlight">ABOUT</a></li>
+                                <li><a href="work.html" class="lineAnim highlight">WORK</a></li>
+                                <li><a href="contact.html" class="lineAnim highlight">CONTACT</a></li>
+                              </ul>
+                            </div>   
                 
-                        <div id="main-menu" class="text-center">
-                          <ul id="mainNav">
-                            <li><a href="about.html" class="lineAnim highlight">ABOUT</a></li>
-                            <li><a href="work.html" class="lineAnim highlight">WORK</a></li>
-                            <li><a href="contact.html" class="lineAnim highlight">CONTACT</a></li>
-                          </ul>   
-            
-            </nav>
+                </nav>
 
         <div id="logo" class="small-12 medium-12 large-offset-0 large-2 large-pull-8 columns end">
             <h1 class="name"><a href="index.html">JAY<span class="highlight"> VERNON</span></a></h1>
@@ -41,62 +42,22 @@
 
     </header>
 
-    <section class="small-10 small-offset-1 column">
-            <div id="welcome" class="small-12 medium-12 large-6 column">
-                <p class="small-8 small-offset-2 text-center leftbox contactBrief">Want to get in touch with me?<span class="highlight"> Email me</span> and I'll get back to you as soon as possible.</p>
+    <section class="small-10 small-offset-1 large-12 column">
+        <h1 class="hide">Want to get in touch?</h1>
+            <div id="contactIntro" class="small-12 medium-12 large-6 column">
+                <p class="small-12 text-center leftbox">Want to get in touch with me? Send me an <span class="highlight">email</span> and I'll be in touch with you as soon as possible.</span></p>
             </div>
+    </section>
 
-            <div id="contact" class="small-12 medium-12 large-6 text-center column">
-                    <form name="contactform" method="post" action="send_form_email.php">
-                            <table width="450px">
-                            <tr>
-                             <td valign="top">
-                              <label for="first_name">First Name *</label>
-                             </td>
-                             <td valign="top">
-                              <input  type="text" name="first_name" maxlength="50" size="30">
-                             </td>
-                            </tr>
-                            <tr>
-                             <td valign="top">
-                              <label for="last_name">Last Name *</label>
-                             </td>
-                             <td valign="top">
-                              <input  type="text" name="last_name" maxlength="50" size="30">
-                             </td>
-                            </tr>
-                            <tr>
-                             <td valign="top">
-                              <label for="email">Email Address *</label>
-                             </td>
-                             <td valign="top">
-                              <input  type="text" name="email" maxlength="80" size="30">
-                             </td>
-                            </tr>
-                            <tr>
-                             <td valign="top">
-                              <label for="telephone">Telephone Number</label>
-                             </td>
-                             <td valign="top">
-                              <input  type="text" name="telephone" maxlength="30" size="30">
-                             </td>
-                            </tr>
-                            <tr>
-                             <td valign="top">
-                              <label for="messages">Message *</label>
-                             </td>
-                             <td valign="top">
-                              <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                             </td>
-                            </tr>
-                            <tr>
-                             <td colspan="2" style="text-align:center">
-                              <input type="submit" value="Submit">
-                             </td>
-                            </tr>
-                            </table>
-                            </form>
-            </div>
+    <section class="small-10 small-offset-1 column CF">
+        <h1 class="hide">Contact Form</h1>
+            <form class="contact-form" action="contactform.php" method="post">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="text" name="mail" placeholder="Your Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message" class="messageArea"></textarea>
+                <button type="submit" name="submit" class="submitBut one small-8 small-offset-2 medium-4 medium-offset-8 text-center">SEND EMAIL</button>
+            </form>
     </section>
             
     
