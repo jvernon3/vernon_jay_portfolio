@@ -17,23 +17,24 @@
 <body>
     <header id="mainHeader">
 
-            <nav id="mainNav" class="small-12 large-8 large-push-4 columns">
-
-                    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
-                            <div class="title-bar-right">
-                                
-                              <button class="menu-icon" type="button" data-toggle="main-menu"></button>
-                            </div>
-                    </div>
-                
-                        <div id="main-menu" class="text-center">
-                          <ul id="mainNav">
+            <nav id="nav" class="small-12 large-8 large-push-4 columns">
+                    <h1 class="hide">Main Navigation</h1>
+                        <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+                                <div class="title-bar-right">
+                                    
+                                  <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+                                </div>
+                        </div>
+                    
+                            <div id="main-menu" class="text-center">
+                              <ul id="mainNav">
                                 <li><a href="about.html" class="lineAnim highlight">ABOUT</a></li>
                                 <li><a href="work.html" class="lineAnim highlight">WORK</a></li>
                                 <li><a href="contact.html" class="lineAnim highlight">CONTACT</a></li>
-                          </ul>   
-            
-            </nav>
+                              </ul>
+                            </div>   
+                
+                </nav>
 
         <div id="logo" class="small-12 medium-12 large-offset-0 large-2 large-pull-8 columns end">
             <h1 class="name"><a href="index.html">JAY<span class="highlight"> VERNON</span></a></h1>
@@ -42,71 +43,97 @@
     </header>
 
     <section class="small-12 column">
+        <h1 class="hide">Portfolio</h1>
+            <div id="vernonDemo" class="small-12 medium-12 large-12 column">
+                    <div class="description small-12 medium-12 large-8 row">
+                            <h1>MY WORKS</h1>
+                            <p>Here's some of the work I've created to date. The video below shows a brief clip of each render, and underneath that is the specifics behind each one</p>
+                    </div>
+    
+                    <div class="small-12 medium-12 large-12 text-center row">
+                            <video autoplay muted loop class="videoDemo introVid">
+                                <source src="video/vernon_demoVideo.mp4" width="300">
+                            </video>
+                    </div>
+
+                    <section class="lightbox">
+                        <h1 class="hide">Lightbox for Video</h1>
+                            <span class="close-lightbox small-12 column">x</span>
+                                <video autoplay loop muted class="videoDemo">
+                                    <source src="video/vernon_demoVideo.mp4" width="300">
+                                </video>
+                    </section>
+
+            </div>
+
+
+
+
             <div id="breakingTorus" class="small-12 medium-12 large-12 column">
-                <div class="description small-12 medium-12 large-8 column">
+                <div class="description small-12 medium-12 large-6 large-offset-1  column">
                         <h1>TIME FRACTURE DEMO</h1>
                         <p>Experimenting with combining the Time and Fracture effectors. The end result turned out quite pleasing, so I ended up creating a marble material to fit with the pieces breaking away.</p>
                 </div>
 
-
-                <div class="small-12 medium-12 large-3 column">
-                    <video autoplay muted loop width="300" class="videoDemo">
-                        <source src="video/time_fracture_portfolio.mp4" width="300">
-                    </video>
+                <div class="small-12 medium-12 large-4 text-center column">
+                        <video autoplay muted loop class="videoDemo">
+                            <source src="video/time_fracture_portfolio.mp4" width="300">
+                        </video>
                 </div>
             </div>
 
+
             <div id="penroseTriangle" class="small-12 medium-12 large-12 column">
-                    <div class="description small-12 medium-12 large-8 column">
+                    <div class="description small-12 medium-12 large-6 large-offset-1  column">
                             <h1>ABSTRACT LOOP</h1>
                             <p>Another experimental piece, the goal was to use as few pieces as possible to create an aesthetically pleasing shape. I recalled from my childhood that I used to be fascinated by the penrose triangle and would draw it constantly. Thus the inspirtaion for the shape.</p>
                     </div>
     
     
-                    <div class="small-12 medium-12 large-3 column">
-                        <video autoplay muted loop width="300" class="videoDemo">
+                    <div class="small-12 medium-12 large-4 text-center column">
+                        <video autoplay muted loop class="videoDemo">
                             <source src="video/abstract_loop.mp4" width="300">
                         </video>
                     </div>
             </div>
 
             <div id="skatepark" class="small-12 medium-12 large-12 column">
-                    <div class="description small-12 medium-12 large-8 column">
+                    <div class="description small-12 medium-12 large-6 large-offset-1  column">
                             <h1>SKATEPARK ANIMATION</h1>
                             <p>This animation fits my personal style perfectly. Very minimalistic and basic. The idea behind this piece was to create something that would truly showcase the way I love to develop art and animation. Plenty of dead space with certain focal points that keep the viewer watching longer.</p>
                     </div>
     
     
-                    <div class="small-12 medium-12 large-3 column">
-                        <video autoplay muted loop width="300" class="videoDemo">
+                    <div class="small-12 medium-12 large-4 text-center column">
+                        <video autoplay muted loop class="videoDemo">
                             <source src="video/skatepark_portfolio.mp4" width="300">
                         </video>
                     </div>
             </div>
 
             <div id="hairDemo" class="small-12 medium-12 large-12 column">
-                    <div class="description small-12 medium-12 large-8 column">
+                    <div class="description small-12 medium-12 large-6 large-offset-1 column">
                             <h1>HAIR DEMO</h1>
                             <p>Creating a realistic hair texture can be quite complicated because of all the variables that go along with it. I wanted to have something on hand as a reference; something to look back on and be able to see how short hair behaves under light wind. The inspiration behind the colours was the fur of a bear.</p>
                     </div>
     
     
-                    <div class="small-12 medium-12 large-3 column">
-                        <video autoplay muted loop width="300" class="videoDemo">
+                    <div class="small-12 medium-12 large-4 text-center column">
+                        <video autoplay muted loop class="videoDemo">
                             <source src="video/hairblowing_portfolio.mp4" width="300">
                         </video>
                     </div>
             </div>
 
             <div id="mineshaft" class="small-12 medium-12 large-12 column">
-                    <div class="description small-12 medium-12 large-8 column">
+                    <div class="description small-12 medium-12 large-6 large-offset-1  column">
                             <h1>MINESHAFT ANIMATION</h1>
                             <p>The first full animation I had created in Cinema4D. This mineshaft animation was a tutorial from greyscalegorilla, and my first exposure to multiple keyframes, cameras in cinema4d, spline keyframes, collider physics, and full scene lighting.</p>
                     </div>
     
     
-                    <div class="small-12 medium-12 large-3 column">
-                        <video autoplay muted loop width="300" class="videoDemo">
+                    <div class="small-12 medium-12 large-4 text-center column">
+                        <video autoplay muted loop class="videoDemo">
                             <source src="video/mineshaft_animation.mp4" width="300">
                         </video>
                     </div>

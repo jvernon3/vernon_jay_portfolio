@@ -17,29 +17,77 @@
 <body>
     <header id="mainHeader">
 
-            <nav id="mainNav" class="small-12 large-8 large-push-4 columns">
-
-                    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
-                            <div class="title-bar-right">
+                <nav id="nav" class="small-12 large-8 large-push-4 columns">
+                                <h1 class="hide">Main Navigation</h1>
+                                    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+                                            <div class="title-bar-right">
+                                                
+                                              <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+                                            </div>
+                                    </div>
                                 
-                              <button class="menu-icon" type="button" data-toggle="main-menu"></button>
-                            </div>
-                    </div>
-                
-                        <div id="main-menu" class="text-center">
-                          <ul id="mainNav">
-                                <li><a href="about.html" class="lineAnim highlight">ABOUT</a></li>
-                                <li><a href="work.html" class="lineAnim highlight">WORK</a></li>
-                                <li><a href="contact.html" class="lineAnim highlight">CONTACT</a></li>
-                          </ul>   
-            
-            </nav>
+                                        <div id="main-menu" class="text-center">
+                                          <ul id="mainNav">
+                                            <li><a href="about.html" class="lineAnim highlight">ABOUT</a></li>
+                                            <li><a href="work.html" class="lineAnim highlight">WORK</a></li>
+                                            <li><a href="contact.html" class="lineAnim highlight">CONTACT</a></li>
+                                          </ul>
+                                        </div>   
+                            
+                            </nav>
 
         <div id="logo" class="small-12 medium-12 large-offset-0 large-2 large-pull-8 columns end">
             <h1 class="name"><a href="index.html">JAY<span class="highlight"> VERNON</span></a></h1>
         </div>
 
     </header>
+
+    <section class="small-10 small-offset-1 column">
+            <div id="aboutMe" class="small-12 medium-12 large-6 column">
+                <h1 class="small-12 leftbox aboutHeader">ABOUT ME</h1>
+                <p class="small-12 leftbox">I'm a motion designer based in Canada, who focuses on <span class="highlight">3D Animation and Video Editing</span>.<span class="lowlight"> Currently Enrolled at Fanshawe College.</span></p>
+            </div>
+
+            <div id="jay" class="small-12 medium-12 large-6 text-center column">
+                    <img src="images/portfolio_front.png" id="jayIMG">
+            </div>
+    </section>
+
+    <section class="small 12 text-center column">
+        <div id="categories">
+            <div id="MotionDesign" class="small-12 catHead row">
+                    <h2 class="small-12">01   MOTION DESIGN</h2>
+                    <i class="fas fa-chevron-down moreIconMotion moreIcon"></i>
+                    <div class="small-12 info" id="contentRevealMotion">
+                    <p class="small-12 catDesc text-center">I've been working with Motion Design for approximately 2 years now. Despite the fact I am still very new to it, there is no end to my interest in programs such as Cinema4D and 3DS Max. I am still looking for opportunites to learn more about the program through tutorials and simply exploring with deformers, effectors, etc. All my work shown was done in Cinema4D. </p>
+                    </div>
+            </div>
+
+            <div id="LogoDesign" class="small-12 catHead row">
+                    <h2 class="small-12">02   LOGO DESIGN</h2>
+                    <i class="fas fa-chevron-down moreIcon moreIconLogo"></i>
+                    <div class="small-12 info" id="contentRevealLogo">
+                    <p class="small-12 catDesc text-center">Logo Design was initially how I was introduced to Graphic and Motion Design. I've done a small number of logo design/rebranding jobs with great success on all of them. I create my logos using Adobe Illustrator.</p>
+                    </div>
+            </div>
+
+            <div id="videoEditing" class="small-12 catHead row">
+                    <h2 class="small-12">03   VIDEO EDITING</h2>
+                    <i class="fas fa-chevron-down moreIcon moreIconVideo"></i>
+                    <div class="small-12 info" id="contentRevealVideo">
+                    <p class="small-12 catDesc text-center">Video editing is the job I find the most entertainment in. The ability to completely change the way someone sees a scene is incredibly interesting. I have moderate experience with it and want to learn more. My first exposure with it was doing Youtube Montages for other content creators that didn't have the time for both streaming and video editing.</p>
+                    </div>
+            </div>
+
+            <div id="WebDev" class="small-12 catHead row">
+                    <h2 class="small-12">04   WEB DEVELOPMENT</h2>
+                    <i class="fas fa-chevron-down moreIcon moreIconWeb"></i>
+                    <div class="small-12 info" id="contentRevealWeb">
+                    <p class="small-12 catDesc text-center">I have the most experience in the web development field. My biggest strengths are HTML5 and CSS. My knowledge of UX/UI varies depending on the site I'm creating. I've done some websites for companies in the past, but definitely am looking towards the previous 3 categories</p>
+                    </div>
+            </div>
+        </div>
+    </section>
 
             
 
@@ -52,6 +100,6 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
 </body>
 </html>
